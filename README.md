@@ -1,5 +1,7 @@
 # SDN Lab — OpenFlow Automation & Video Streaming Control
 
+**Project author and sole implementer:** Mohammed Mahyoub.
+
 A software-defined network built with **Mininet**, **Open vSwitch** and the **Ryu** controller. Every forwarding decision is pushed to the switches through the controller's **REST API**; no switch is configured by hand. The lab runs two experiments, and every number below comes from the run logs committed in [`results/`](results).
 
 1. **Configuration automation.** The flow tables are programmed over REST. One switch's table is then wiped, and the switch is restored from a saved JSON definition in milliseconds.
