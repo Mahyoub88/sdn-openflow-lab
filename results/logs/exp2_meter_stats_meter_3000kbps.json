@@ -1,0 +1,17 @@
+[
+  {
+    "len": 56,
+    "flow_count": 1,
+    "packet_in_count": 3069,
+    "byte_in_count": 3994366,
+    "duration_sec": 19,
+    "duration_nsec": 126000000,
+    "band_stats": [
+      {
+        "packet_band_count": 0,
+        "byte_band_count": 0
+      }
+    ],
+    "meter_id": 1
+  }
+]

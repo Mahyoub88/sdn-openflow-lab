@@ -1,0 +1,70 @@
+{
+  "started": "2026-10-03 15:20:57",
+  "experiment1": [
+    {
+      "step": "1. empty flow tables",
+      "pingall_loss_pct": 100.0
+    },
+    {
+      "step": "2. flows installed via REST",
+      "rest_calls": 21,
+      "install_seconds": 0.038,
+      "pingall_loss_pct": 0.0,
+      "h4_to_h6_loss_pct": 0
+    },
+    {
+      "step": "3. s3 flow table cleared via REST",
+      "h4_to_h6_loss_pct": 100
+    },
+    {
+      "step": "4. s3 restored from s3.json via REST",
+      "rest_calls": 7,
+      "restore_seconds": 0.008,
+      "h4_to_h6_loss_pct": 0
+    }
+  ],
+  "experiment2": {
+    "video_kbps": 2500,
+    "seconds": 12,
+    "source_bytes": 3865468,
+    "source_frames": 300,
+    "runs": [
+      {
+        "scenario": "no_meter",
+        "meter_kbps": null,
+        "received_bytes": 3854188,
+        "decoded_frames": 299,
+        "meter_dropped_packets": null,
+        "psnr_db": 39.485377,
+        "ssim": 0.998068
+      },
+      {
+        "scenario": "meter_3000kbps",
+        "meter_kbps": 3000,
+        "received_bytes": 3848548,
+        "decoded_frames": 298,
+        "meter_dropped_packets": 0,
+        "psnr_db": 40.599978,
+        "ssim": 0.99787
+      },
+      {
+        "scenario": "meter_1500kbps",
+        "meter_kbps": 1500,
+        "received_bytes": 2230244,
+        "decoded_frames": 299,
+        "meter_dropped_packets": 1271,
+        "psnr_db": 19.3191,
+        "ssim": 0.818919
+      },
+      {
+        "scenario": "meter_800kbps",
+        "meter_kbps": 800,
+        "received_bytes": 1197748,
+        "decoded_frames": 293,
+        "meter_dropped_packets": 2105,
+        "psnr_db": 15.392139,
+        "ssim": 0.706447
+      }
+    ]
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "info": {
+    "name": "SDN Lab \u2014 Ryu ofctl_rest",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "1 \u00b7 List connected switches",
+      "request": {
+        "method": "GET",
+        "url": "{{ryu}}/stats/switches"
+      }
+    },
+    {
+      "name": "2 \u00b7 Dump s3 flow table",
+      "request": {
+        "method": "GET",
+        "url": "{{ryu}}/stats/flow/3"
+      }
+    },
+    {
+      "name": "3 \u00b7 Clear s3 flow table",
+      "request": {
+        "method": "DELETE",
+        "url": "{{ryu}}/stats/flowentry/clear/3"
+      }
+    },
+    {
+      "name": "4.1 \u00b7 Restore s3 entry (priority 100, 2054)",
+      "request": {
+        "method": "POST",
+        "url": "{{ryu}}/stats/flowentry/add",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"dpid\": 3,\n  \"table_id\": 0,\n  \"priority\": 100,\n  \"match\": {\n    \"eth_type\": 2054\n  },\n  \"actions\": [\n    {\n      \"type\": \"OUTPUT\",\n      \"port\": \"FLOOD\"\n    }\n  ]\n}"
+        }
+      }
+    },
+    {
+      "name": "4.2 \u00b7 Restore s3 entry (priority 200, 00:00:00:00:00:01)",
+      "request": {
+        "method": "POST",
+        "url": "{{ryu}}/stats/flowentry/add",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"dpid\": 3,\n  \"table_id\": 0,\n  \"priority\": 200,\n  \"match\": {\n    \"eth_dst\": \"00:00:00:00:00:01\"\n  },\n  \"actions\": [\n    {\n      \"type\": \"OUTPUT\",\n      \"port\": 3\n    }\n  ]\n}"
+        }
+      }
+    },
+    {
+      "name": "4.3 \u00b7 Restore s3 entry (priority 200, 00:00:00:00:00:02)",
+      "request": {
+        "method": "POST",
+        "url": "{{ryu}}/stats/flowentry/add",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"dpid\": 3,\n  \"table_id\": 0,\n  \"priority\": 200,\n  \"match\": {\n    \"eth_dst\": \"00:00:00:00:00:02\"\n  },\n  \"actions\": [\n    {\n      \"type\": \"OUTPUT\",\n      \"port\": 3\n    }\n  ]\n}"
+        }
+      }
+    },
+    {
+      "name": "4.4 \u00b7 Restore s3 entry (priority 200, 00:00:00:00:00:03)",
+      "request": {
+        "method": "POST",
+        "url": "{{ryu}}/stats/flowentry/add",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"dpid\": 3,\n  \"table_id\": 0,\n  \"priority\": 200,\n  \"match\": {\n    \"eth_dst\": \"00:00:00:00:00:03\"\n  },\n  \"actions\": [\n    {\n      \"type\": \"OUTPUT\",\n      \"port\": 3\n    }\n  ]\n}"
+        }
+      }
+    },
+    {
+      "name": "4.5 \u00b7 Restore s3 entry (priority 200, 00:00:00:00:00:04)",
+      "request": {
+        "method": "POST",
+        "url": "{{ryu}}/stats/flowentry/add",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"dpid\": 3,\n  \"table_id\": 0,\n  \"priority\": 200,\n  \"match\": {\n    \"eth_dst\": \"00:00:00:00:00:04\"\n  },\n  \"actions\": [\n    {\n      \"type\": \"OUTPUT\",\n      \"port\": 3\n    }\n  ]\n}"
+        }
+      }
+    },
+    {
+      "name": "4.6 \u00b7 Restore s3 entry (priority 200, 00:00:00:00:00:05)",
+      "request": {
+        "method": "POST",
+        "url": "{{ryu}}/stats/flowentry/add",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"dpid\": 3,\n  \"table_id\": 0,\n  \"priority\": 200,\n  \"match\": {\n    \"eth_dst\": \"00:00:00:00:00:05\"\n  },\n  \"actions\": [\n    {\n      \"type\": \"OUTPUT\",\n      \"port\": 1\n    }\n  ]\n}"
+        }
+      }
+    },
+    {
+      "name": "4.7 \u00b7 Restore s3 entry (priority 200, 00:00:00:00:00:06)",
+      "request": {
+        "method": "POST",
+        "url": "{{ryu}}/stats/flowentry/add",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"dpid\": 3,\n  \"table_id\": 0,\n  \"priority\": 200,\n  \"match\": {\n    \"eth_dst\": \"00:00:00:00:00:06\"\n  },\n  \"actions\": [\n    {\n      \"type\": \"OUTPUT\",\n      \"port\": 2\n    }\n  ]\n}"
+        }
+      }
+    },
+    {
+      "name": "5 \u00b7 Add 1500 kbps meter on s1",
+      "request": {
+        "method": "POST",
+        "url": "{{ryu}}/stats/meterentry/add",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"dpid\": 1,\n  \"flags\": \"KBPS\",\n  \"meter_id\": 1,\n  \"bands\": [\n    {\n      \"type\": \"DROP\",\n      \"rate\": 1500\n    }\n  ]\n}"
+        }
+      }
+    },
+    {
+      "name": "6 \u00b7 Meter statistics on s1",
+      "request": {
+        "method": "GET",
+        "url": "{{ryu}}/stats/meter/1"
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "ryu",
+      "value": "http://127.0.0.1:8080"
+    }
+  ]
+}

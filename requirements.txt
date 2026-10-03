@@ -1,0 +1,6 @@
+# Lab host (system Python 3.10+): Mininet Python API + analysis
+mininet
+networkx
+matplotlib
+pillow
+# Controller runs separately: Ryu 4.34 on Python 3.9 (see setup.sh)

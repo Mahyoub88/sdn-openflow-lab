@@ -1,0 +1,48 @@
+{"t": 1791026457.476, "method": "GET", "path": "/stats/switches", "body": null, "status": 200}
+{"t": 1791026487.691, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 1, "table_id": 0, "priority": 100, "match": {"eth_type": 2054}, "actions": [{"type": "OUTPUT", "port": "FLOOD"}]}, "status": 200}
+{"t": 1791026487.694, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 1, "table_id": 0, "priority": 200, "match": {"eth_dst": "00:00:00:00:00:01"}, "actions": [{"type": "OUTPUT", "port": 1}]}, "status": 200}
+{"t": 1791026487.696, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 1, "table_id": 0, "priority": 200, "match": {"eth_dst": "00:00:00:00:00:02"}, "actions": [{"type": "OUTPUT", "port": 2}]}, "status": 200}
+{"t": 1791026487.697, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 1, "table_id": 0, "priority": 200, "match": {"eth_dst": "00:00:00:00:00:03"}, "actions": [{"type": "OUTPUT", "port": 3}]}, "status": 200}
+{"t": 1791026487.699, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 1, "table_id": 0, "priority": 200, "match": {"eth_dst": "00:00:00:00:00:04"}, "actions": [{"type": "OUTPUT", "port": 3}]}, "status": 200}
+{"t": 1791026487.701, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 1, "table_id": 0, "priority": 200, "match": {"eth_dst": "00:00:00:00:00:05"}, "actions": [{"type": "OUTPUT", "port": 3}]}, "status": 200}
+{"t": 1791026487.702, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 1, "table_id": 0, "priority": 200, "match": {"eth_dst": "00:00:00:00:00:06"}, "actions": [{"type": "OUTPUT", "port": 3}]}, "status": 200}
+{"t": 1791026487.704, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 2, "table_id": 0, "priority": 100, "match": {"eth_type": 2054}, "actions": [{"type": "OUTPUT", "port": "FLOOD"}]}, "status": 200}
+{"t": 1791026487.705, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 2, "table_id": 0, "priority": 200, "match": {"eth_dst": "00:00:00:00:00:01"}, "actions": [{"type": "OUTPUT", "port": 3}]}, "status": 200}
+{"t": 1791026487.708, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 2, "table_id": 0, "priority": 200, "match": {"eth_dst": "00:00:00:00:00:02"}, "actions": [{"type": "OUTPUT", "port": 3}]}, "status": 200}
+{"t": 1791026487.709, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 2, "table_id": 0, "priority": 200, "match": {"eth_dst": "00:00:00:00:00:03"}, "actions": [{"type": "OUTPUT", "port": 1}]}, "status": 200}
+{"t": 1791026487.711, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 2, "table_id": 0, "priority": 200, "match": {"eth_dst": "00:00:00:00:00:04"}, "actions": [{"type": "OUTPUT", "port": 2}]}, "status": 200}
+{"t": 1791026487.713, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 2, "table_id": 0, "priority": 200, "match": {"eth_dst": "00:00:00:00:00:05"}, "actions": [{"type": "OUTPUT", "port": 4}]}, "status": 200}
+{"t": 1791026487.715, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 2, "table_id": 0, "priority": 200, "match": {"eth_dst": "00:00:00:00:00:06"}, "actions": [{"type": "OUTPUT", "port": 4}]}, "status": 200}
+{"t": 1791026487.717, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 3, "table_id": 0, "priority": 100, "match": {"eth_type": 2054}, "actions": [{"type": "OUTPUT", "port": "FLOOD"}]}, "status": 200}
+{"t": 1791026487.719, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 3, "table_id": 0, "priority": 200, "match": {"eth_dst": "00:00:00:00:00:01"}, "actions": [{"type": "OUTPUT", "port": 3}]}, "status": 200}
+{"t": 1791026487.72, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 3, "table_id": 0, "priority": 200, "match": {"eth_dst": "00:00:00:00:00:02"}, "actions": [{"type": "OUTPUT", "port": 3}]}, "status": 200}
+{"t": 1791026487.722, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 3, "table_id": 0, "priority": 200, "match": {"eth_dst": "00:00:00:00:00:03"}, "actions": [{"type": "OUTPUT", "port": 3}]}, "status": 200}
+{"t": 1791026487.724, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 3, "table_id": 0, "priority": 200, "match": {"eth_dst": "00:00:00:00:00:04"}, "actions": [{"type": "OUTPUT", "port": 3}]}, "status": 200}
+{"t": 1791026487.726, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 3, "table_id": 0, "priority": 200, "match": {"eth_dst": "00:00:00:00:00:05"}, "actions": [{"type": "OUTPUT", "port": 1}]}, "status": 200}
+{"t": 1791026487.727, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 3, "table_id": 0, "priority": 200, "match": {"eth_dst": "00:00:00:00:00:06"}, "actions": [{"type": "OUTPUT", "port": 2}]}, "status": 200}
+{"t": 1791026490.88, "method": "GET", "path": "/stats/flow/3", "body": null, "status": 200}
+{"t": 1791026490.882, "method": "DELETE", "path": "/stats/flowentry/clear/3", "body": null, "status": 200}
+{"t": 1791026494.918, "method": "GET", "path": "/stats/flow/3", "body": null, "status": 200}
+{"t": 1791026494.919, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 3, "table_id": 0, "priority": 100, "match": {"eth_type": 2054}, "actions": [{"type": "OUTPUT", "port": "FLOOD"}]}, "status": 200}
+{"t": 1791026494.921, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 3, "table_id": 0, "priority": 200, "match": {"eth_dst": "00:00:00:00:00:01"}, "actions": [{"type": "OUTPUT", "port": 3}]}, "status": 200}
+{"t": 1791026494.922, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 3, "table_id": 0, "priority": 200, "match": {"eth_dst": "00:00:00:00:00:02"}, "actions": [{"type": "OUTPUT", "port": 3}]}, "status": 200}
+{"t": 1791026494.923, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 3, "table_id": 0, "priority": 200, "match": {"eth_dst": "00:00:00:00:00:03"}, "actions": [{"type": "OUTPUT", "port": 3}]}, "status": 200}
+{"t": 1791026494.924, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 3, "table_id": 0, "priority": 200, "match": {"eth_dst": "00:00:00:00:00:04"}, "actions": [{"type": "OUTPUT", "port": 3}]}, "status": 200}
+{"t": 1791026494.925, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 3, "table_id": 0, "priority": 200, "match": {"eth_dst": "00:00:00:00:00:05"}, "actions": [{"type": "OUTPUT", "port": 1}]}, "status": 200}
+{"t": 1791026494.926, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 3, "table_id": 0, "priority": 200, "match": {"eth_dst": "00:00:00:00:00:06"}, "actions": [{"type": "OUTPUT", "port": 2}]}, "status": 200}
+{"t": 1791026497.983, "method": "GET", "path": "/stats/flow/3", "body": null, "status": 200}
+{"t": 1791026519.187, "method": "POST", "path": "/stats/meterentry/add", "body": {"dpid": 1, "flags": "KBPS", "meter_id": 1, "bands": [{"type": "DROP", "rate": 3000}]}, "status": 200}
+{"t": 1791026519.188, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 1, "table_id": 0, "priority": 300, "match": {"eth_type": 2048, "ip_proto": 17, "ipv4_dst": "10.0.0.6", "udp_dst": 5004}, "actions": [{"type": "METER", "meter_id": 1}, {"type": "OUTPUT", "port": 3}]}, "status": 200}
+{"t": 1791026538.314, "method": "GET", "path": "/stats/meter/1", "body": null, "status": 200}
+{"t": 1791026538.317, "method": "POST", "path": "/stats/flowentry/delete_strict", "body": {"dpid": 1, "table_id": 0, "priority": 300, "match": {"eth_type": 2048, "ip_proto": 17, "ipv4_dst": "10.0.0.6", "udp_dst": 5004}, "actions": []}, "status": 200}
+{"t": 1791026538.318, "method": "POST", "path": "/stats/meterentry/delete", "body": {"dpid": 1, "meter_id": 1}, "status": 200}
+{"t": 1791026540.375, "method": "POST", "path": "/stats/meterentry/add", "body": {"dpid": 1, "flags": "KBPS", "meter_id": 1, "bands": [{"type": "DROP", "rate": 1500}]}, "status": 200}
+{"t": 1791026540.377, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 1, "table_id": 0, "priority": 300, "match": {"eth_type": 2048, "ip_proto": 17, "ipv4_dst": "10.0.0.6", "udp_dst": 5004}, "actions": [{"type": "METER", "meter_id": 1}, {"type": "OUTPUT", "port": 3}]}, "status": 200}
+{"t": 1791026559.531, "method": "GET", "path": "/stats/meter/1", "body": null, "status": 200}
+{"t": 1791026559.534, "method": "POST", "path": "/stats/flowentry/delete_strict", "body": {"dpid": 1, "table_id": 0, "priority": 300, "match": {"eth_type": 2048, "ip_proto": 17, "ipv4_dst": "10.0.0.6", "udp_dst": 5004}, "actions": []}, "status": 200}
+{"t": 1791026559.535, "method": "POST", "path": "/stats/meterentry/delete", "body": {"dpid": 1, "meter_id": 1}, "status": 200}
+{"t": 1791026561.715, "method": "POST", "path": "/stats/meterentry/add", "body": {"dpid": 1, "flags": "KBPS", "meter_id": 1, "bands": [{"type": "DROP", "rate": 800}]}, "status": 200}
+{"t": 1791026561.718, "method": "POST", "path": "/stats/flowentry/add", "body": {"dpid": 1, "table_id": 0, "priority": 300, "match": {"eth_type": 2048, "ip_proto": 17, "ipv4_dst": "10.0.0.6", "udp_dst": 5004}, "actions": [{"type": "METER", "meter_id": 1}, {"type": "OUTPUT", "port": 3}]}, "status": 200}
+{"t": 1791026580.866, "method": "GET", "path": "/stats/meter/1", "body": null, "status": 200}
+{"t": 1791026580.869, "method": "POST", "path": "/stats/flowentry/delete_strict", "body": {"dpid": 1, "table_id": 0, "priority": 300, "match": {"eth_type": 2048, "ip_proto": 17, "ipv4_dst": "10.0.0.6", "udp_dst": 5004}, "actions": []}, "status": 200}
+{"t": 1791026580.87, "method": "POST", "path": "/stats/meterentry/delete", "body": {"dpid": 1, "meter_id": 1}, "status": 200}

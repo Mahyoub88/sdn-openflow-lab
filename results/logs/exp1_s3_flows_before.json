@@ -1,0 +1,135 @@
+[
+  {
+    "priority": 200,
+    "cookie": 0,
+    "idle_timeout": 0,
+    "hard_timeout": 0,
+    "byte_count": 434,
+    "duration_sec": 3,
+    "duration_nsec": 159000000,
+    "packet_count": 5,
+    "length": 88,
+    "flags": 0,
+    "actions": [
+      "OUTPUT:3"
+    ],
+    "match": {
+      "dl_dst": "00:00:00:00:00:01"
+    },
+    "table_id": 0
+  },
+  {
+    "priority": 200,
+    "cookie": 0,
+    "idle_timeout": 0,
+    "hard_timeout": 0,
+    "byte_count": 434,
+    "duration_sec": 3,
+    "duration_nsec": 157000000,
+    "packet_count": 5,
+    "length": 88,
+    "flags": 0,
+    "actions": [
+      "OUTPUT:3"
+    ],
+    "match": {
+      "dl_dst": "00:00:00:00:00:02"
+    },
+    "table_id": 0
+  },
+  {
+    "priority": 200,
+    "cookie": 0,
+    "idle_timeout": 0,
+    "hard_timeout": 0,
+    "byte_count": 434,
+    "duration_sec": 3,
+    "duration_nsec": 155000000,
+    "packet_count": 5,
+    "length": 88,
+    "flags": 0,
+    "actions": [
+      "OUTPUT:3"
+    ],
+    "match": {
+      "dl_dst": "00:00:00:00:00:03"
+    },
+    "table_id": 0
+  },
+  {
+    "priority": 200,
+    "cookie": 0,
+    "idle_timeout": 0,
+    "hard_timeout": 0,
+    "byte_count": 630,
+    "duration_sec": 3,
+    "duration_nsec": 153000000,
+    "packet_count": 7,
+    "length": 88,
+    "flags": 0,
+    "actions": [
+      "OUTPUT:3"
+    ],
+    "match": {
+      "dl_dst": "00:00:00:00:00:04"
+    },
+    "table_id": 0
+  },
+  {
+    "priority": 200,
+    "cookie": 0,
+    "idle_timeout": 0,
+    "hard_timeout": 0,
+    "byte_count": 1078,
+    "duration_sec": 3,
+    "duration_nsec": 151000000,
+    "packet_count": 11,
+    "length": 88,
+    "flags": 0,
+    "actions": [
+      "OUTPUT:1"
+    ],
+    "match": {
+      "dl_dst": "00:00:00:00:00:05"
+    },
+    "table_id": 0
+  },
+  {
+    "priority": 200,
+    "cookie": 0,
+    "idle_timeout": 0,
+    "hard_timeout": 0,
+    "byte_count": 1316,
+    "duration_sec": 3,
+    "duration_nsec": 150000000,
+    "packet_count": 14,
+    "length": 88,
+    "flags": 0,
+    "actions": [
+      "OUTPUT:2"
+    ],
+    "match": {
+      "dl_dst": "00:00:00:00:00:06"
+    },
+    "table_id": 0
+  },
+  {
+    "priority": 100,
+    "cookie": 0,
+    "idle_timeout": 0,
+    "hard_timeout": 0,
+    "byte_count": 462,
+    "duration_sec": 3,
+    "duration_nsec": 160000000,
+    "packet_count": 11,
+    "length": 88,
+    "flags": 0,
+    "actions": [
+      "OUTPUT:FLOOD"
+    ],
+    "match": {
+      "dl_type": 2054
+    },
+    "table_id": 0
+  }
+]
