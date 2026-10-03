@@ -177,8 +177,8 @@ These steps are for Ubuntu 22.04 or 24.04, as root. They also work in a VM or WS
 
 ```bash
 git clone https://github.com/Mahyoub88/sdn-openflow-lab && cd sdn-openflow-lab
-sudo ./setup.sh                       # Mininet, Open vSwitch, FFmpeg, Ryu (Python 3.9 venv)
-sudo ./start_controller.sh &          # Ryu ofctl_rest: OpenFlow :6653, REST :8080
+sudo bash setup.sh                    # Mininet, Open vSwitch, FFmpeg, Ryu (Python 3.9 venv)
+sudo bash start_controller.sh &       # Ryu ofctl_rest: OpenFlow :6653, REST :8080
 sudo python3 experiments/run_lab.py   # runs Experiment 1 and 2, writes results/
 python3 experiments/make_figures.py   # rebuilds the charts
 ```
