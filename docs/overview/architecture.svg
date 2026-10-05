@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="570" viewBox="0 0 1200 570" role="img">
+<title>Software-Defined Networking — OpenFlow Automation &amp; Video Streaming Control</title>
+<desc>Functional areas (grouped by responsibility)</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10" fill="#5eead4"/></marker></defs>
+<rect width="1200" height="570" rx="24" fill="#0b1220"/>
+<text x="48" y="54" font-family="Arial,sans-serif" font-size="17" fill="#5eead4" letter-spacing="3">ENGINEERING OVERVIEW</text>
+<text x="48" y="96" font-family="Arial,sans-serif" font-size="28" font-weight="bold" fill="#f8fafc">Software-Defined Networking — OpenFlow Automation &amp; Video Streaming</text>
+<text x="48" y="129" font-family="Arial,sans-serif" font-size="28" font-weight="bold" fill="#f8fafc">Control</text>
+<rect x="48" y="195" width="344" height="98" rx="14" fill="#152238" stroke="#334155"/><text x="68" y="223" font-family="Arial,sans-serif" font-size="13" fill="#5eead4">01</text>
+<text x="68" y="254" font-family="Arial,sans-serif" font-size="20" fill="#f8fafc">Python / Postman</text>
+<path d="M394 243H423" stroke="#5eead4" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="428" y="195" width="344" height="98" rx="14" fill="#152238" stroke="#334155"/><text x="448" y="223" font-family="Arial,sans-serif" font-size="13" fill="#5eead4">02</text>
+<text x="448" y="254" font-family="Arial,sans-serif" font-size="20" fill="#f8fafc">Ryu REST API</text>
+<path d="M774 243H803" stroke="#5eead4" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="808" y="195" width="344" height="98" rx="14" fill="#152238" stroke="#334155"/><text x="828" y="223" font-family="Arial,sans-serif" font-size="13" fill="#5eead4">03</text>
+<text x="828" y="254" font-family="Arial,sans-serif" font-size="20" fill="#f8fafc">OpenFlow rules</text>
+<rect x="48" y="340" width="344" height="98" rx="14" fill="#152238" stroke="#334155"/><text x="68" y="368" font-family="Arial,sans-serif" font-size="13" fill="#5eead4">04</text>
+<text x="68" y="399" font-family="Arial,sans-serif" font-size="20" fill="#f8fafc">OVS switches</text>
+<path d="M394 388H423" stroke="#5eead4" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="428" y="340" width="344" height="98" rx="14" fill="#152238" stroke="#334155"/><text x="448" y="368" font-family="Arial,sans-serif" font-size="13" fill="#5eead4">05</text>
+<text x="448" y="399" font-family="Arial,sans-serif" font-size="20" fill="#f8fafc">UDP video path</text>
+<path d="M774 388H803" stroke="#5eead4" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="808" y="340" width="344" height="98" rx="14" fill="#152238" stroke="#334155"/><text x="828" y="368" font-family="Arial,sans-serif" font-size="13" fill="#5eead4">06</text>
+<text x="828" y="399" font-family="Arial,sans-serif" font-size="20" fill="#f8fafc">FFmpeg metrics</text>
+<text x="48" y="504" font-family="Arial,sans-serif" font-size="16" fill="#a8b7cf">Functional areas (grouped by responsibility)</text>
+<text x="48" y="540" font-family="Arial,sans-serif" font-size="13" fill="#8494ad">Mohammed Mahyoub · Explanatory diagram · Not a measured result or as-built schematic</text></svg>
