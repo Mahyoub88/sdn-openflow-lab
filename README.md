@@ -1,4 +1,6 @@
-# SDN Lab — OpenFlow Automation & Video Streaming Control
+# Software-Defined Networking — Reproducible Ryu Extension
+
+The original project used OpenDaylight, OpenFlow, Mininet, Postman and XML forwarding rules, integrating the programmable network with a real IP network. This repository is the separate Ryu / Open vSwitch reproducible extension. REST timings and PSNR/SSIM results here belong to that extension.
 
 ## Illustrated engineering guide
 
@@ -211,3 +213,11 @@ For an interactive network, run `sudo python3 topology/sdn_topo.py`.
 ---
 
 **Author:** Mohammed Mahyoub · [Portfolio](https://mahyoub88.github.io/) · [LinkedIn](https://www.linkedin.com/in/mohammed-mahyoub/) · [ORCID](https://orcid.org/0009-0003-5640-352X) · MIT License
+
+## Illustrated project pages
+
+Project-specific diagrams, source media and implementation context:
+
+- [Software-Defined Networking — Automation & Video Streaming](https://mahyoub88.github.io/projects/proj-sdn/)
+
+[Browse all engineering case studies](https://mahyoub88.github.io/projects/)
