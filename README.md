@@ -1,14 +1,9 @@
-# Software-Defined Networking — Reproducible Ryu Extension
+# Software-Defined Networking — Automation & Video Streaming
+
+[Read case study](https://mahyoub88.github.io/projects/proj-sdn/) · [Project index](docs/PROJECTS.md) · [Engineering guide](docs/engineering-guide.md)
 
 The original project used OpenDaylight, OpenFlow, Mininet, Postman and XML forwarding rules, integrating the programmable network with a real IP network. This repository is the separate Ryu / Open vSwitch reproducible extension. REST timings and PSNR/SSIM results here belong to that extension.
 
-## Illustrated engineering guide
-
-[Read the full engineering guide](docs/engineering-guide.md) for architecture, workflow, design rationale, evidence notes and the source gallery.
-
-![Engineering overview](docs/overview/architecture.svg)
-
-*Explanatory diagram added for this write-up.*
 
 **Project author and sole implementer:** Mohammed Mahyoub.
 
@@ -212,15 +207,8 @@ For an interactive network, run `sudo python3 topology/sdn_topo.py`.
 
 ---
 
-**Author:** Mohammed Mahyoub · [Portfolio](https://mahyoub88.github.io/) · [LinkedIn](https://www.linkedin.com/in/mohammed-mahyoub/) · [ORCID](https://orcid.org/0009-0003-5640-352X) · MIT License
+**Author:** Mohammed Mahyoub · [Portfolio](https://mahyoub88.github.io/projects/) · [LinkedIn](https://www.linkedin.com/in/mohammed-mahyoub/) · [ORCID](https://orcid.org/0009-0003-5640-352X) · MIT License
 
-## Illustrated project pages
-
-Project-specific diagrams, source media and implementation context:
-
-- [Software-Defined Networking — Automation & Video Streaming](https://mahyoub88.github.io/projects/proj-sdn/)
-
-[Browse all engineering case studies](https://mahyoub88.github.io/projects/)
 
 ## Additional technical explanation
 
